@@ -1,0 +1,148 @@
+
+.table h1 {
+  margin-top: 70px;
+  color: #301818;
+  font-size: 28px;
+}
+
+.add-student-button {
+  border: 0;
+  border-radius: 7px;
+  color: #fff;
+  padding: 11px 16px;
+  font-weight: 600;
+  margin-left: 90%;
+  cursor: pointer;
+}
+.add-student-button:hover {
+  background: #562f2f;
+}
+.table-panel,
+.table {
+  border: 1px solid #e4e8ef;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(31, 45, 61, 0.05);
+}
+.table {
+  margin: 0 0 0 18%;
+  padding: 10px;
+}
+.table > button {
+  border: 1px solid #dfe4eb;
+  border-radius: 6px;
+  background: #fff;
+  color: #684d4d;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.table-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+  border-bottom: 1px solid #edf0f4;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 300px;
+  padding: 9px 12px;
+  border: 1px solid #dfe4eb;
+  border-radius: 7px;
+  color: #947b7b;
+  background: #fff;
+}
+.search input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: #301818;
+  font: inherit;
+}
+.student {
+  width: 100%;
+  margin-top: 10px;
+  overflow: auto;
+  height: 450px;
+}
+.data-table-container {
+  max-height: 540px;
+  overflow: auto !important;
+  box-shadow: none !important;
+}
+.data-table-container::-webkit-scrollbar,
+.student::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+.data-table-container::-webkit-scrollbar-track,
+.student::-webkit-scrollbar-track {
+  background: #f1f3f6;
+}
+.data-table-container::-webkit-scrollbar-thumb,
+.student::-webkit-scrollbar-thumb {
+  border: 2px solid #f1f3f6;
+  border-radius: 8px;
+  background: #ccb7b7;
+}
+.data-table-container::-webkit-scrollbar-thumb:hover,
+.student::-webkit-scrollbar-thumb:hover {
+  background: #a88d8d;
+}
+.student-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-left: 0;
+}
+.student-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f7f9fc;
+  color: #785d5d;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.student-table td,
+.student-table th {
+  white-space: nowrap;
+  border-bottom: 1px solid #edf0f4;
+}
+.student-table tbody tr:hover {
+  background: #f8faff;
+}
+
+.table-error {
+  margin: 0;
+  padding: 14px 16px;
+  color: #b42318;
+  background: #fff4f2;
+}
+@media (max-width: 700px) {
+  .page-heading {
+    flex-direction: column;
+  }
+  .table-panel {
+    overflow-x: auto;
+  }
+  .table-toolbar {
+    justify-content: stretch;
+  }
+  .search {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+.studentbutton{
+  display: flex;
+  margin-left: 95%;
+  padding: 30%;
+  font-weight: bold;
+  font-size: medium;
+  
+}
+
+

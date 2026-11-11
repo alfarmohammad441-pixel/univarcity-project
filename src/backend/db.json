@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Admin User"
+    },
+    {
+      "id": 2,
+      "username": "student",
+      "password": "student123",
+      "role": "student",
+      "name": "Student User"
+    }
+  ],
+  "studentexams": [
+    {
+      "id": 1,
+      "course": "Mathematics",
+      "date": "2026-09-18",
+      "time": "09:00",
+      "room": "A-101",
+      "status": "Upcoming"
+    },
+    {
+      "id": 2,
+      "course": "Physics",
+      "date": "2026-09-20",
+      "time": "11:00",
+      "room": "B-205",
+      "status": "Upcoming"
+    }
+  ],
+  "studentpayment": [
+    {
+      "id": 1,
+      "student": "Student User",
+      "amount": 1500,
+      "month": "September",
+      "status": "Paid"
+    },
+    {
+      "id": 2,
+      "student": "Student User",
+      "amount": 1500,
+      "month": "October",
+      "status": "Pending"
+    }
+  ],
+  "studenttable": [
+    {
+      "id": 1,
+      "name": "Ali Hassan",
+      "major": "Computer Science",
+      "year": "2nd Year",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Sara Ahmed",
+      "major": "Business Administration",
+      "year": "3rd Year",
+      "status": "Active"
+    }
+  ],
+  "subjecttable": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "instructor": "Dr. Samer",
+      "credits": 3,
+      "term": "Fall 2026"
+    },
+    {
+      "id": 2,
+      "name": "Database",
+      "instructor": "Dr. Noor",
+      "credits": 3,
+      "term": "Fall 2026"
+    }
+  ]
+}
